@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Users\rkhanna36\Desktop\java full stack training\front-end\css/style_m.css">
+
+    <title>Moodle</title>
+  </head>
+  <body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark " style="width:100%;background-color: black">
+            <a class="navbar-brand" href="#"><i class="fa fa-home" style="color: green;"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: left;margin-left:45%">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Documentation<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Downloads</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Demo</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="#">Tracker</a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#">Development</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="#">Translation</a>
+                                  </li>
+                                  <li class="nav-item">
+                                        <a class="nav-link" href="#">Moodle.net</a>
+                                      </li>
+                                      <li class="nav-item">
+                                            <a class="nav-link" href="#"><i class="fa fa-search r" aria-hidden="true"></i></a>
+                                          </li>
+                
+            </div>
+          </nav>
+    </div>
+    <div style="background-color: orange;height:2px;width:100%"></div>
+    <div class="d2">
+        <img class="img1" src="data:image/png;base64,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" alt="..." height="100" style="padding-top: 60px">
+    </div>
+    <div>
+            <div class="jumbotron img2">
+                    <h1 class="display-4">Community driven,globally<br>supported.</h1>
+                    <p class="lead">Welcome to the Moodle community and discover the <br>value of an open, collaborative effort by one of the largest <br>open-source teams in the world.</p>
+                    <p class="lead">
+                      <a class="btn btn-primary btn-lg" href="#" role="button">Community Forums</a>
+                    </p>
+                  </div>
+    </div>
+    <div class="d3">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <p class="h3" style="color: orange">Announcements<i class="fa fa-wifi" aria-hidden="true"></i></p>
+                <hr>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3">
+                    <p class="h5" style="color: black">Congratulations to our GSoC 2019 <br>students</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                        <p class="h5" style="color: black">Moodle 3.7.2 and other minors have been <br>released</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-3">
+                            <p class="h5" style="color: black">Moodle 3.8 forum grading usability testing</p>
+                        </div>
+        </div>
+        <div class="row" style="height: 50px; width:100%">
+                <div class="col-md-3 col-sm-3 col-3">
+                    <p class="small"> More Announcements</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                        <p class="small">Thursday, September 12, 2019</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-3">
+                            <p class="small">Monday, September 9, 2019</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-3">
+                                <p class="small">Monday, September 9, 2019</p>
+                            </div>
+                            
+    </div>
+    <div class="container">
+    <div class="row" style="padding-top:10px ">
+      <div class="col-md-4 col-sm-4 col-4" style="padding: 5px;">
+        <div class="card" style="width: 18rem;height: 300px;;">
+          <div class="card-body">
+            <h5 class="card-title">The Moodle Project</h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 100px;">Learn more about the Moodle project and our open, collaborative partnerships.</h6>
+            <a href="#" class="card-link" style="padding-top: 100px;">About Moodle</a><br />
+            <a href="#" class="card-link">Statistics</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4" style="padding:5px">
+        <div class="card" style="width: 18rem;height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Setting up</h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 100px;">On Your own</h6>
+           <a href="#" class="card-link" style="padding-top: 100px;">Free download</a><br/>
+            <a href="#" class="card-link">Installation</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4" style="padding:5px">
+        <div class="card" style="width: 18rem;height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Teaching with Moodle</h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 100px;">Explore Moodle's wide range of features and available resources.</h6>
+            <a href="#" class="card-link" style="padding-top: 100px;">Documentation</a><br />
+            <a href="#" class="card-link">Courses and content</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+      <div class="row" style="padding-top: 10px">
+      <div class="col-md-4 col-sm-4 col-4"style="padding:5px">
+        <div class="card" style="width: 18rem;height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Help shape Moodle's future</h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 100px;">Find out what's next and help make a difference.</h6>
+            <a href="#" class="card-link" style="padding-top: 100px;">
+              Developer discussions</a><br />
+            <a href="#" class="card-link">Roadmap</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4" style="padding:5px">
+        <div class="card" style="width: 18rem;height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Support and community forums</h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 100px;">Get support and share ideas, in your own language.</h6>
+            <a href="#" class="card-link" style="padding-top: 100px;">Moodle in English</a><br />
+            <a href="#" class="card-link">Moodle en Español</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4" style="padding:5px">
+        <div class="card" style="width: 18rem;height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Keep up-to-date</h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 100px;">Latest Moodle news, updates and insight across the world.</h6>
+            <a href="#" class="card-link" style="padding-top: 100px;">Announcements</a><br />
+            <a href="#" class="card-link">Security announcements</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div></div>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6 col-sm-6 col-6">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="col-md-6 col-sm-6 col-6">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputPassword1">First Name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter First Name">
+          </div>
+          <div class="form-group">
+              <label for="exampleInputPassword1">Last Name</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Last Name">
+            </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+  </div>
+  <footer id="page-footer">
+    <div style="background-color: black; border-top: 4px solid green" class="footer-nav">
+        <div class="container">
+            <div class="row px-3">
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">THE MOODLE PROJECT</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">About</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Announcements</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Comunity Forums</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Get involved</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Moodle Partners</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">MoodleMoot</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Moodle Users Association</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Learn Moodle</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">MoodleCloud</a>
+                        </li>
+                    </ul>
+                </div>
+         <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">DOCUMENTATION</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Moodle 3.7</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Browse by language</a>
+                        </li>
+                        </ul>
+            </div>
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">DOWNLOADS</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Latest Release</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Plugins</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Moodle App</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Moodle Desktop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">DEMO</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">School</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Sandbox</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">TRACKER</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Browse Issues</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Report Issues</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">DEVELOPMENT</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Dev Documentation</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Road Map</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">General Developer Forum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">TRANSLATION</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Help translate Moodle</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Translation forums</a>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Translation forums</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list footer-nav-list">
+                        <li class="primary">
+                            <label style="color: orange">MOODLE.NET</label>
+                        </li>
+                        <li class="secondary">
+                            <a href="#" style="color: white">Browse courses</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
